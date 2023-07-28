@@ -1,0 +1,31 @@
+Scaffold(
+      backgroundColor: Colors.grey[50],
+      appBar: AppBar(
+        backgroundColor: kPrimaryColor,
+        title: Text("User Recipes"),
+      ),
+
+      body: SingleChildScrollView(
+          child: Column(
+            children: fireStoreData.map((data){
+              return GestureDetector(
+                onTap: (){
+                  print("Pressed the Container");
+                },
+                child: Container(
+                  child: Text(data["recipeName"]),
+                  height: 80,
+                  width: 400,
+                  margin: EdgeInsets.all(16),
+                  decoration: BoxDecoration(color: Colors.white,
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(20),
+                    ),
+                    boxShadow: [kBoxShadow],
+                  ),
+                ),
+              );
+            }).toList(),
+          )
+      ),
+      );

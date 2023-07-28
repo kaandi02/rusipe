@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389859678377",
+    "project_id": "rusipe-app",
+    "storage_bucket": "rusipe-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389859678377:android:e097b27f77c298b00bb1b8",
+        "android_client_info": {
+          "package_name": "com.example.rusipe_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389859678377-kl70pdst2kqq5lk3ilccjjbmc9jq70ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmg--bsBrRb7Sz_R95vMRGW1BWmOOkkkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389859678377-kl70pdst2kqq5lk3ilccjjbmc9jq70ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
