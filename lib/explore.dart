@@ -109,7 +109,7 @@ class _ExploreState extends State<Explore> {
 
                 ],
               ),
-            ),
+             ),
 
             SizedBox(
               height: 24,
@@ -264,9 +264,14 @@ class _ExploreState extends State<Explore> {
 
                 buildCalories(recipe.calories.toString() + " Kcal"),
 
-                Icon(
+                GestureDetector(
+                  onTap: (){
+
+                  },
+                    child: Icon(
                     Icons.favorite_border,
                   ),
+                )
               ],
             ),
 
@@ -343,12 +348,10 @@ class _ExploreState extends State<Explore> {
 
                       ],
                     ),
-
                   ],
                 ),
               ),
             ),
-
           ],
         ),
       ),
